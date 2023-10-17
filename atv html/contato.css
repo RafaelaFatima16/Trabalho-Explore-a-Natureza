@@ -14,13 +14,3 @@
     letter-spacing: 2px;
     margin: 50px;
 }
-
-.informações_mapa{
-    margin: 60px;
-    display: flex;
-    flex-direction: row;
-}
-
-.informação > p{
-    margin: 40px;
-}

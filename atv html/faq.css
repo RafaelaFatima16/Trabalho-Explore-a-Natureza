@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -29,7 +30,6 @@
     margin: 50px;
     color: var(--color-brown);
     border-bottom: 1px solid var(--color-border-faq);
-
 }
 
 .titulos_textos_FAQ > div{
@@ -39,4 +39,22 @@
     text-align: left;
     margin: 50px;
     color: var(--coor-textl);
+}
+
+.js-informações div{
+    display: none;
+}
+
+.js-informações div.active{
+    display: block;
+}
+
+.js-informações .pergunta::after{
+    content: '\25BC ';
+    font-size: 0.985rem;
+    padding: 10px;
+}
+
+.js-informações .pergunta.active::after{
+    content: '\25B2';
 }
